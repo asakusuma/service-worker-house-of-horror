@@ -7,10 +7,11 @@
   "author": "asakusuma",
   "license": "MIT",
   "scripts": {
-    "serve": "node server.js"
+    "serve": "nodemon root.js"
   },
   "dependencies": {
     "express": "^4.15.4",
+    "glob": "^7.1.2",
     "randomstring": "^1.1.5"
   }
 }

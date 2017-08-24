@@ -1,0 +1,12 @@
+<html>
+  <body>
+    <h2>{{name}}</h2>
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('{{root}}/sw.js').catch((e) => {
+          console.error(e);
+        });;
+      }
+    </script>
+  </body>
+</html>
