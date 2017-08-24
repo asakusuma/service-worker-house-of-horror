@@ -1,9 +1,9 @@
 {
-  "name": "skip-waiting-experiment",
+  "name": "service-worker-house-of-horror",
   "version": "0.0.1",
-  "description": "Exploring skipWaiting() in a service worker",
+  "description": "Things that can go wrong in a service worker",
   "main": "index.js",
-  "repository": "https://github.com/asakusuma/skip-waiting-experiment.git",
+  "repository": "https://github.com/asakusuma/service-worker-house-of-horror.git",
   "author": "asakusuma",
   "license": "MIT",
   "scripts": {

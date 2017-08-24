@@ -1,3 +1,3 @@
-# Service Worker Kill Switch
+# Service Worker House of Horror
 
-POC for kill switch.
+Things that can go wrong in a service worker.
