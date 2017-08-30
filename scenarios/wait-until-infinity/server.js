@@ -1,6 +1,8 @@
-const route = require('./../../shared/route');
+const setup = require('./../../shared/route');
 const name = 'infinity';
 module.exports = {
-  route: route(name, __dirname),
+  route(app) {
+    setup(app, name, __dirname);
+  },
   name
 };
